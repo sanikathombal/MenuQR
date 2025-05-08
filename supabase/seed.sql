@@ -2,9 +2,8 @@
 -- Data for Name: users; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-INSERT INTO "auth"."users" ("instance_id", "id", "aud", "role", "email", "encrypted_password", "email_confirmed_at", "invited_at", "confirmation_token", "confirmation_sent_at", "recovery_token", "recovery_sent_at", "email_change_token_new", "email_change", "email_change_sent_at", "last_sign_in_at", "raw_app_meta_data", "raw_user_meta_data", "is_super_admin", "created_at", "updated_at", "phone", "phone_confirmed_at", "phone_change", "phone_change_token", "phone_change_sent_at", "email_change_token_current", "email_change_confirm_status", "banned_until", "reauthentication_token", "reauthentication_sent_at", "is_sso_user", "deleted_at") VALUES
-	('00000000-0000-0000-0000-000000000000', '7042152a-7151-49f1-9bfd-3d8f156e7aef', 'authenticated', 'authenticated', 'random@gmail.com', '$2a$10$6bkcCFR9wsUOyXSAijXGO.0wyw4neeRPHtuePu4igBXSAHaBqnfQ.', '2023-10-22 21:37:14.25057+00', NULL, '', NULL, '', NULL, '', '', NULL, '2023-11-06 23:04:07.101986+00', '{"provider": "email", "providers": ["email"]}', '{}', NULL, '2023-10-22 21:37:14.240954+00', '2023-11-06 23:04:07.106022+00', NULL, NULL, '', '', NULL, '', 0, NULL, '', NULL, false, NULL);
-
+INSERT INTO "auth"."identities" ("id", "user_id", "identity_data", "provider", "provider_id", "last_sign_in_at", "created_at", "updated_at") VALUES
+	('7042152a-7151-49f1-9bfd-3d8f156e7aef', '7042152a-7151-49f1-9bfd-3d8f156e7aef', '{"sub": "7042152a-7151-49f1-9bfd-3d8f156e7aef", "email": "random@gmail.com"}', 'email', 'email', '2023-10-22 21:37:14.249029+00', '2023-10-22 21:37:14.24905+00', '2023-10-22 21:37:14.24905+00');
 -- Data for Name: identities; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 

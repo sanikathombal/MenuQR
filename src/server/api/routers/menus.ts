@@ -37,7 +37,11 @@ const generateMenuSlug = ({ name, city }: { name: string; city: string }) => {
   return alphaNumericSlug;
 };
 
-export const POLISH_LANGUAGE_NAME = "Polish";
+// Change this line
+// export const POLISH_LANGUAGE_NAME = "Polish";
+
+// To this (use this instead)
+export const DEFAULT_LANGUAGE_ID = "56ef000f-2a05-41ab-bbfa-6f1a619306ed"; // English
 
 const getFullMenu = async (slug: string, db: PrismaClient) =>
   db.menus.findFirst({
@@ -208,7 +212,7 @@ export const menusRouter = createTRPCRouter({
               isDefault: true,
               languages: {
                 connect: {
-                  name: POLISH_LANGUAGE_NAME,
+                  id: DEFAULT_LANGUAGE_ID, // English language ID
                 },
               },
             },
