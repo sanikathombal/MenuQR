@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FeastQR: Open Source SaaS Online Menu System 🌐
 
 <a href="https://www.producthunt.com/posts/feastqr?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-feastqr" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=425852&theme=light" alt="FeastQR - Free Open Source Saas For Restaurants | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
@@ -123,3 +124,8 @@ I know, that's a rare request to have. Check out [this](https://github.com/Jaane
 👤 **Patryk Szczurowski**
 - Github: [@patryiku](https://github.com/patryiku)
 "# Ai" 
+=======
+# My Project 
+git add README.md
+git commit -m "Add README.md"
+>>>>>>> 0cb78799115cc19a13df003568d2fc4d0835dafa
