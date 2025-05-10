@@ -19,7 +19,7 @@ const config = {
         hostname: "localhost",
       },
       {
-        hostname: "icqoczbcbzinlmjtaxkk.supabase.co",
+        hostname: "elaqrtdakmonswlvblnc.supabase.co",
       },
     ],
   },
@@ -27,8 +27,7 @@ const config = {
    * If you are using `appDir` then you must comment the below `i18n` config out.
    *
    * @see https://github.com/vercel/next.js/issues/41980
-   */
-  eslint: { ignoreDuringBuilds: true },
+   */  eslint: { ignoreDuringBuilds: true },
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
